@@ -1,0 +1,139 @@
+.editButton {
+  font-size: 11px;
+}
+
+.tableDeleteButton {
+  color: red;
+  font-size: 11px;
+}
+.inputStyle {
+  height: 2rem;
+  font-size: 0.7rem;
+}
+
+.labelStyle {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.errorStyle {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.saveButton {
+  width: 10%;
+  height: 35px;
+  background-image: linear-gradient(to right, #4facfe 40%, #02d1dc 100%);
+  color: white;
+  font-size: 15px;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+.deleteButton {
+  width: 8%;
+  height: 35px;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+.selectStyle {
+  width: 100%;
+  height: 2rem;
+  font-size: 0.7rem;
+}
+
+.selectorContainer {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.headerCell {
+  font-size: 12px;
+  text-align: center;
+}
+.dataCell {
+  font-size: 11px;
+  text-align: center;
+}
+.tableDeleteButton {
+  color: red;
+  font-size: 11px;
+}
+
+.inProgressStyle {
+  background-color: #e0f2f1;
+}
+
+.completedStyle {
+  text-decoration: line-through;
+}
+
+.high {
+  color: red;
+  font-weight: bold;
+}
+
+.low {
+  color: green;
+}
+
+.medium {
+  color: #ff9800;
+}
+
+.reportContainer {
+  background-color: white;
+  padding: 2%;
+}
+.reportTitle {
+  margin-bottom: 3%;
+  font-weight: bold;
+  font-family: tahoma;
+}
+
+
+.addIconStyle {
+  margin-right: 3%;
+  color: white;
+}
+.tableContainer {
+  margin-top: 2%;
+}
+.tableHeadStyle {
+  background-color: #f0f2f5;
+  
+}
+.buttonsContainer {
+  font-size: 11px;
+}
+.editButton {
+  font-size: 11px;
+}
+
+@media only screen and (max-width: 600px) {
+  .saveButton {
+    width: 20%;
+    height: 35px;
+    background-image: linear-gradient(to right, #4facfe 40%, #02d1dc 100%);
+    color: white;
+    font-size: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+  }
+
+  .deleteButton {
+    width: 15%;
+    height: 35px;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius: 10px;
+  }
+}
